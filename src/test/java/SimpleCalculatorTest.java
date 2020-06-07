@@ -9,7 +9,6 @@ class SimpleCalculatorTest {
         result = SimpleCalculator.suma(new String[]{"+"});
         assertEquals(0, result);
         result = SimpleCalculator.suma(new String[]{"*"});
-        assertEquals(-1, result);
-
+        assertEquals(0, result);
     }
 }
